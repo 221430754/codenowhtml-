@@ -1,9 +1,11 @@
 h1{
     color:F3FF33;
-    background-color:#FF3399;}
+    background-color:#FF3399;
+}
 html{
     font-family:sans-serif;
 }
+
 .estimate{
     font-weight:bold;
     color: #F44336;
@@ -12,33 +14,19 @@ html{
     padding: 5px 10px 5px 10px;
 }
 #add-new-todo-button{
-    font-size:20px;
-    text-align: center;
-    color: #FFF;
-    outline: none;
-    border-style: none;
-      padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  outline: none;
+  border-style: none;
+  padding: 10px;
   border-radius: 3px;
   box-shadow: 2px 2px 1px #90A4AE;
   display: block;
   background-color: #03A9F4;
   margin-top: 10px;
+}
 
-}
-.box-one{
-  background-color: #e74c3c;
-  color: #ECF0F1;
-  padding: 5px;
-  border: 20px solid #2C3E50;
-  margin: 10px;
-}
-.box-two{
-  background-color: #3498db;
-  color: #ECF0F1;
-  padding: 5px;
-  border: 20px solid #2C3E50;
-  margin: 10px;
-}
 li{
   padding: 5px;
   margin-bottom:10px;
