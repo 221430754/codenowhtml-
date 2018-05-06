@@ -2,16 +2,25 @@
 <html>
     <head>
         <title>todonow </title> 
-        <link src="styles.css" />
+        <link rel="sylesheet" href="index.scss"/>
     </head>
     <body>
         <H1>My list</H1>
         <ul> <li>
             <input type="checkbox" />
-            study for Ap Psych Exam
+           <a href="show.html">study for Ap Psych Exam</a>
+           <span class="estimate">60 minutes</span>
             <li>
-                <input type="checkbox" />finish u.s. hsitory questions</li>
-            <li> <input type="checkbox" />study for trig</li></li>
+                <input type="checkbox" /><a href="show.html"> finish u.s. hsitory questions</a>
+                <span class="estimate">20 minutes</span></li>
+            <li> <input type="checkbox" /><a href="show.html">study for trig class
+            </a>
+            <span class="estimate">30 minutes</span></li></li>
         </ul>
+        <input type="text" placeholder="task info"/>
+        <input type="number" placeholder="enter"/> 
+        <Input type="number" placeholder="time interval"/>
+      <input type=submit value="add todo" id="add-new-todo" /> 
+     
     </body>
 </html>
